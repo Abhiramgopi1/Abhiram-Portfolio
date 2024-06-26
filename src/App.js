@@ -1,24 +1,22 @@
 import './App.css';
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./utils/Themes";
+import { HashRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Hero from "./components/HeroSection";
 import Education from "./components/Education";
-import { BrowserRouter as Router } from "react-router-dom";
 import Experience from "./components/Experience";
 import Contact from './components/Contact';
-
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
   height: 100%;
-  overflow-x:hidden;
+  overflow-x: hidden;
 `;
-
 
 const Wrapper = styled.div`
   background: linear-gradient(
@@ -32,7 +30,7 @@ const Wrapper = styled.div`
     rgba(0, 70, 209, 0.15) 100%
   );
   width: 100%;
-  clip-path: polgon(0 0, 100% 0, 100% 100%, 30% 98% , 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%); /* Fixed typo */
 `;
 
 function App() {
@@ -41,15 +39,15 @@ function App() {
       <Router>
         <Navbar />
         <Body>
-          <Hero/>
+          <Hero />
           <Wrapper>
-            <Skills/>
-            <Experience/>
+            <Skills />
+            <Experience />
           </Wrapper>
-          <Projects/>
+          <Projects />
           <Wrapper>
-          <Education/>
-          <Contact/>
+            <Education />
+            <Contact />
           </Wrapper>
           <Footer />
         </Body>
@@ -57,4 +55,5 @@ function App() {
     </ThemeProvider>
   );
 }
+
 export default App;
