@@ -5,6 +5,7 @@ export const Bio = {
       "Full Stack Developer",
       "Programmer",
     ],
+    heroimage: "https://github.com/Abhiramgopi1/portfolio/blob/main/HeroImage.jpg",
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Abhiramgopi1",
@@ -84,11 +85,11 @@ export const Bio = {
           image:
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         },
-        {
-          name: "Postman",
-          image:
-            "https://www.svgrepo.com/show/354202/postman-icon.svg",
-        },
+        // {
+        //   name: "Postman",
+        //   image:
+        //     "https://www.svgrepo.com/show/354202/postman-icon.svg",
+        // },
       ],
 
     },
@@ -171,26 +172,7 @@ export const Bio = {
       ],
       doc: "https://raw.githubusercontent.com/Abhiramgopi1/portfolio/main/download%20(1).png",
     },
-    // {
-    //   id: 1,
-    //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    //   role: "Fullstack Externship",
-    //   company: "Flipr",
-    //   date: "June 2023 - July 2023",
-    //   desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    //   skills: [
-    //     "ReactJS",
-    //     "Redux",
-    //     "NodeJs",
-    //     "Material UI",
-    //     "HTML",
-    //     "CSS",
-    //     "JavaScript",
-    //     "Docker",
-    //     "AWS",
-    //     "MongoDB",
-    //   ],
-    // },
+    
 
   ];
   
@@ -215,7 +197,7 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://media-exp1.licdn.com/dms/image/C4D0BAQHxSgco_-fddg/company-logo_200_200/0?e=2159024400&v=beta&t=-Kore7RpBT8kDcUM2UDlyh4IXyrBqHvVR-seDRuTPVI",
+      img: "https://raw.githubusercontent.com/Abhiramgopi1/portfolio/main/e930ff2adec300925a5290708203751d.jpg",
       school: "Sri Chaitanya School, Yanam",
       date: "Apr 2018 - Apr 2019",
       grade: "92.7%",
@@ -225,73 +207,6 @@ export const Bio = {
   ];
   
   export const projects = [
-    // {
-    //   id: 0,
-    //   title: "Trackify",
-    //   date: "Jun 2023 - Jul 2023",
-    //   description:
-    //     "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    //   image:
-    //     "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    //   tags: [
-    //     "Docker",
-    //     "AWS",
-    //     "DuckDNS",
-    //     "Eslint",
-    //     "Husky",
-    //     "CI/CD",
-    //     "React Js",
-    //     "MongoDb",
-    //     "Node Js",
-    //     "Express Js",
-    //     "Redux",
-    //   ],
-    //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Trackify",
-    //   webapp: "https://trackify.duckdns.org",
-    // },
-    // {
-    //   id: 1,
-    //   title: "Podstream",
-    //   date: "Apr 2023 - May 2023",
-    //   description:
-    //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    //   image:
-    //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Podstream",
-    //   webapp: "https://podstream.netlify.app/",
-    //   member: [
-    //     {
-    //       name: "Rishav Chanda",
-    //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //       github: "https://github.com/rishavchanda/",
-    //     },
-    //     {
-    //       name: "Upasana Chaudhuri",
-    //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //       github: "https://github.com/upasana0710",
-    //     },
-    //   ],
-    // },
-    
-    // {
-    //   id: 2,
-    //   title: "Quiz App",
-    //   date: "Dec 2020 - Jan 2021",
-    //   description:
-    //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    //   image:
-    //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    //   category: "android app",
-    //   github: "https://github.com/rishavchanda/Quiz-Earn",
-    //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
-    // },
-
     {
       id: 0,
       title: "AR Resume",

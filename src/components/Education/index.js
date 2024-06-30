@@ -17,6 +17,10 @@ const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
+    // padding : 40px 0px 80px 0px;
+    @media (max-width: 768px) {
+        padding: 0px;
+    }
 `;
 
 const Wrapper = styled.div`
@@ -66,10 +70,8 @@ const TimelineSection = styled.div`
     align-items: center;
     justify-content: center;
     gap: 12px;
-    @media (max-width: 660px) {
-        align-items: end;
-    }
 `;
+
 
 const Education = () => {
     return (

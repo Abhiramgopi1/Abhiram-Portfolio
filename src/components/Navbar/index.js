@@ -1,5 +1,4 @@
 import React from "react";
-import { DiCssdeck } from "react-icons/di";
 import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import { useTheme } from 'styled-components';
@@ -36,6 +35,8 @@ const NavLogo = styled(LinkR)`
     width: 80%;    
     padding: 0 6px;
     display: flex;
+    font-size: 18px;
+    font-weight: 600px;
     justify-self: flex-start;
     cursor: pointer;
     align-items: center;
@@ -45,10 +46,16 @@ const NavLogo = styled(LinkR)`
   }
 `;
 
+const ColorText = styled.div`
+  color: ${({ theme }) => theme.primary};
+  font-size: 40px;
+`;
+
 export const Span = styled.span`
-    padding: 0 4px;
-    font-weight: bold;
-    font-size: 18px;
+    color: ${({ theme }) => theme.text_primary};
+    font-weight: 500;
+    padding: 0 0px;
+    font-size: 20px;
 `;
 
 const NavItems = styled.ul`
@@ -175,7 +182,9 @@ const Navbar = () => {
                     cursor: "pointer",
                    }}
                 >
-                    <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
+                      <ColorText>&lt;</ColorText>Abhiram
+                      <div style={{ color: theme.primary }}>/</div>Gopi
+                      <ColorText>&gt;</ColorText>
                 </a>
             </NavLogo>
             <MobileIcon>
