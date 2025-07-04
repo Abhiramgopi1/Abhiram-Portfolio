@@ -264,6 +264,27 @@ export const Bio = {
         }
 
       ],
+
+        {
+      id: 2,
+      title: "Go-vigi",
+      date: "June 2025 - July 2025",
+      description:
+       "A scalable and user-friendly web application for bulk vegetable procurement, designed for PGS groups, FPOs, and institutional buyers. Features include a dynamic product catalog, cart and checkout system, saved addresses, delivery slot selection, and real-time location tagging. Built with mobile-first responsive UI and integrated with admin-side order tracking and chatbot support using OpenAI.",
+      image: "https://raw.githubusercontent.com/Abhiramgopi1/portfolio-assets/refs/heads/main/MixCollage-05-Jul-2025-12-30-AM-4428.jpg",
+      tags: ["Next.js", "React", "Tailwind CSS", "MongoDB", "Node.js", "OpenAI API", "MobX", "UX Design"],
+      category:"web app",
+      member: [
+        {
+          name: "Abhiram",
+          img: "https://raw.githubusercontent.com/Abhiramgopi1/portfolio/main/WhatsApp%20Image%202024-04-28%20at%2022.30.58_5f9ecc1a.jpg",
+        },
+        {
+          name: "Siva",
+          img: "https://raw.githubusercontent.com/Abhiramgopi1/portfolio/main/WhatsApp%20Image%202024-04-28%20at%2022.29.19_cccabc8c.jpg",
+        }
+
+      ],
     }
   ];
   
